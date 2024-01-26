@@ -30,3 +30,7 @@
 ---
 ### Файл HEAD  
 ---
+### Статусы *untracked*/*tracked*, *staged* и *modified*  
+### Про `staged` и `modified`  
+### Типичный жизненный цикл файла в Git  
+---

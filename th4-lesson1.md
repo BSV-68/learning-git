@@ -64,19 +64,19 @@ ls -la .ssh/ # вывели список созданных ключей
 
 2. Укажите место хранения ключей. Простой вариант — сделать домашний каталог пользователя путём по умолчанию. Для этого нажмите *Enter*.  
 
-### macOS  
+   __macOS__  
 
-   ```text
-   > Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]   
-   ```
+      ```text
+      > Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]   
+      ```
 
-### Windows  
+   __Windows__  
 
-   ```text
-   > Enter a file in which to save the key (C:\Users\<имя_пользователя>\.ssh\):[Press enter]   
-   ```
+      ```text
+      > Enter a file in which to save the key (C:\Users\<имя_пользователя>\.ssh\):[Press enter]   
+      ```
 
-   Теперь в указанной директории появится пара ключей.  
+      Теперь в указанной директории появится пара ключей.  
 
 3. Программа запросит __кодовую фразу__ (англ. *passphrase*) для доступа к SSH-ключу. Вы можете оставить поле пустым. Для этого нажмите *Enter*, а затем ещё раз *Enter* для подтверждения.  
 

@@ -43,7 +43,7 @@ git checkout -b br2 && echo 'version 2' > readme.md && git add . && git commit -
 ```
 
 После выполнения этих команд будет создан репозиторий с тремя коммитами: первый добавляет текст `main version`, а два других — текст `version 1` и `version 2`. Обе ветки отходят от `main` и изменяют один и тот же файл. При попытке объединить все три ветки получится конфликт.  
-![Conflicts - Pic 1](pics/conflicts_pic1.png)
+![Conflicts - Pic 1](pics/conflicts_pic01.png)
 
 Добавьте в основную ветку (`main` или `master`) ветку `br1`. Коммиты этих веток можно выстроить в одну линию, поэтому слияние будет выполнено в режиме `fast-forward`.  
 
@@ -58,7 +58,7 @@ Fast-forward
 ```
 
 Теперь в файле `readme.md` содержится текст `version 1`, а текущее состояние веток будет такое.  
-![aConflicts - Pic 2](pics/conflicts_pic2.png)
+![Conflicts - Pic 2](pics/conflicts_pic02.png)
 
 Настало время создать конфликт! Для этого убедитесь, __что находитесь в основной ветке__, а затем выполните `git merge`.  
 
@@ -125,7 +125,7 @@ $ git add . && git commit --no-edit
 ```
 
 Готово! Вы разрешили конфликт вручную и создали коммит слияния. Теперь в файле `readme.md` содержится текст `version 2`. Дерево коммитов будет выглядеть так.  
-![Conflicts - Pic 3](pics/conflicts_pic3.png)
+![Conflicts - Pic 3](pics/conflicts_pic03.png)  
 
 ## Разрешаем конфликт через инструмент слияния `vimdiff`  
 
